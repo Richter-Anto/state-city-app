@@ -59,7 +59,7 @@ function App() {
     setcities(allcities);
   };
 
-  //on submit
+  // on submit
   let onSubmit = () => {
     if (selectedCity && selectedState) {
       setisSubmit(true);
